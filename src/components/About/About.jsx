@@ -1,9 +1,11 @@
 import React from "react";
 import "./About.css";
 import Card from "../Card/Card";
-// import mern form "../../assets/mern.png";
+import mern from "../../assets/mern.png";
+import dsa from "../../assets/dsa.png";
+import java from "../../assets/java.png";
 
-function About({title,image}) {
+function About() {
   return (
     <div id="about">
       <div className="leftabout">
@@ -64,9 +66,9 @@ function About({title,image}) {
         </div>
       </div>
       <div className="rightabout">
-      <Card/>
-      <Card/>
-      <Card/>
+      <Card title={"MERN STACK WEB DEVELOPER"} image={mern}/>
+      <Card title={"JAVA"} image={java}/>
+      <Card title={"DSA"} image={dsa}/>
       </div>
     </div>
   );

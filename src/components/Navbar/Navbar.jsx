@@ -31,7 +31,7 @@ let mobile = useRef();
           <li>About</li>
         </Link>
         <Link
-          to="project"
+          to="projects"
           smooth={true}
           activeClass="active"
           spy={true}

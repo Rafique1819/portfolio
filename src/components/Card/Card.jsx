@@ -12,4 +12,4 @@ function Card({title,image}) {
   )
 }
 
-export default Card
+export default Card;
