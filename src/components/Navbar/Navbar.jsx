@@ -1,12 +1,28 @@
 import { useRef } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import {useGSAP} from "@gsap/react";
+import gsap from "gsap";
 
 function Navbar() {
 
 let menu = useRef();
 let mobile = useRef();
 
+useGSAP(()=>{
+  let t1 = gsap.timeline();
+t1.from("nav h1",{
+  y:-100,
+  duration:1,
+  opacity:0.5
+})
+t1.from("nav ul li",{
+  y:-100,
+  duration:1,
+  opacity:0,
+  stagger:1
+})
+})
 
   return (
     <nav>

@@ -8,7 +8,7 @@ function Contact() {
         <img src={contact} alt="" />
       </div>
       <div className="rightcontact">
-        <form action="#">
+        <form action="https://formspree.io/f/mdeolnjn" method="POST">
           <input name='Username' type="text" placeholder='Name' />
           <input name='Email' type="email" placeholder='Email' />
           <textarea name="message" id="textmsg" placeholder='Message me '></textarea>

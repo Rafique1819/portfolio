@@ -46,7 +46,7 @@ nav h1 {
   gap: 8px;
   flex-direction: column;
   display: none;
- 
+ cursor: pointer;
 }
 
 .ham {
